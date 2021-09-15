@@ -53,7 +53,7 @@ function Search(props) {
   const onCellAddClick = useCallback((row) => {
     if (aplayer) {
       aplayer.list.add(row.original);
-      // aplayer.play();
+      aplayer.list.show();
     }
   }, [aplayer]);
 
