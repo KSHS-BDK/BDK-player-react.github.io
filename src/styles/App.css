@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
+.side-nav {
+  width: 240px;
+  position: fixed;
+  left: 0;
+  top: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app-content {
+  margin-left: 240px;
+  position: relative;
+  height: 100vh;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1d3557+9,000000+42 */
+  background: #1d3557; /* Old browsers */
+  background: -moz-linear-gradient(top,  #1d3557 9%, #000000 42%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #1d3557 9%,#000000 42%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #1d3557 9%,#000000 42%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d3557', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.aplayer.aplayer-fixed {
+  width: 100% !important;
+  max-width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: flex-end;
+  z-index: 110;
+  background-color: transparent;
 }
 
-.App-link {
-  color: #61dafb;
+.aplayer.aplayer-fixed .aplayer-body {
+  width: 100%;
+  max-width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.aplayer-list {
+  margin-left: 240px;
+  width: 100%;
+  background-color: white;
+  border-radius: .15rem;
+}
+
+.aplayer-info {
+  display: block !important;
 }

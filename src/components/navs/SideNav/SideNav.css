@@ -1,0 +1,35 @@
+.SideNav {
+    z-index: 100;
+    background-color: black;
+    height: 100vh;
+    /* min-height: 100vh; */
+}
+
+.nav-header i {
+    padding-right: .5rem;
+}
+
+.nav-link {
+    padding: .35rem .5rem;
+    font-size: .9rem;
+    height: 100%;
+}
+
+.nav-link i {
+    padding-right: .5rem;
+    font-size: 1rem;
+}
+
+.nav-link.active {
+    background-color: #282828;
+    border-radius: .25rem;
+    color: white !important;
+}
+
+.nav-item {
+    height: 2.4rem;
+}
+
+.nav-header {
+    color: white;
+}
