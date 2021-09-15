@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/bdk-player-react.github.io/static/css/main.1fb63fdc.chunk.css",
-    "main.js": "/bdk-player-react.github.io/static/js/main.9d1d224b.chunk.js",
-    "main.js.map": "/bdk-player-react.github.io/static/js/main.9d1d224b.chunk.js.map",
-    "runtime-main.js": "/bdk-player-react.github.io/static/js/runtime-main.24e0704c.js",
-    "runtime-main.js.map": "/bdk-player-react.github.io/static/js/runtime-main.24e0704c.js.map",
+    "main.css": "/bdk-player-react.github.io/static/css/main.48e0e86d.chunk.css",
+    "main.js": "/bdk-player-react.github.io/static/js/main.66934c2f.chunk.js",
+    "main.js.map": "/bdk-player-react.github.io/static/js/main.66934c2f.chunk.js.map",
+    "runtime-main.js": "/bdk-player-react.github.io/static/js/runtime-main.e1f463cb.js",
+    "runtime-main.js.map": "/bdk-player-react.github.io/static/js/runtime-main.e1f463cb.js.map",
     "static/css/2.4d8279c5.chunk.css": "/bdk-player-react.github.io/static/css/2.4d8279c5.chunk.css",
-    "static/js/2.428d493f.chunk.js": "/bdk-player-react.github.io/static/js/2.428d493f.chunk.js",
-    "static/js/2.428d493f.chunk.js.map": "/bdk-player-react.github.io/static/js/2.428d493f.chunk.js.map",
-    "static/js/3.b8f82fbf.chunk.js": "/bdk-player-react.github.io/static/js/3.b8f82fbf.chunk.js",
-    "static/js/3.b8f82fbf.chunk.js.map": "/bdk-player-react.github.io/static/js/3.b8f82fbf.chunk.js.map",
+    "static/js/2.b82f6aec.chunk.js": "/bdk-player-react.github.io/static/js/2.b82f6aec.chunk.js",
+    "static/js/2.b82f6aec.chunk.js.map": "/bdk-player-react.github.io/static/js/2.b82f6aec.chunk.js.map",
+    "static/js/3.260e7dfb.chunk.js": "/bdk-player-react.github.io/static/js/3.260e7dfb.chunk.js",
+    "static/js/3.260e7dfb.chunk.js.map": "/bdk-player-react.github.io/static/js/3.260e7dfb.chunk.js.map",
     "index.html": "/bdk-player-react.github.io/index.html",
     "static/css/2.4d8279c5.chunk.css.map": "/bdk-player-react.github.io/static/css/2.4d8279c5.chunk.css.map",
-    "static/css/main.1fb63fdc.chunk.css.map": "/bdk-player-react.github.io/static/css/main.1fb63fdc.chunk.css.map",
-    "static/js/2.428d493f.chunk.js.LICENSE.txt": "/bdk-player-react.github.io/static/js/2.428d493f.chunk.js.LICENSE.txt",
+    "static/css/main.48e0e86d.chunk.css.map": "/bdk-player-react.github.io/static/css/main.48e0e86d.chunk.css.map",
+    "static/js/2.b82f6aec.chunk.js.LICENSE.txt": "/bdk-player-react.github.io/static/js/2.b82f6aec.chunk.js.LICENSE.txt",
     "static/media/index.css": "/bdk-player-react.github.io/static/media/bootstrap-icons.dfd0ea12.woff2"
   },
   "entrypoints": [
-    "static/js/runtime-main.24e0704c.js",
+    "static/js/runtime-main.e1f463cb.js",
     "static/css/2.4d8279c5.chunk.css",
-    "static/js/2.428d493f.chunk.js",
-    "static/css/main.1fb63fdc.chunk.css",
-    "static/js/main.9d1d224b.chunk.js"
+    "static/js/2.b82f6aec.chunk.js",
+    "static/css/main.48e0e86d.chunk.css",
+    "static/js/main.66934c2f.chunk.js"
   ]
 }
