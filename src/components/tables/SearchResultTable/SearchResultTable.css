@@ -1,0 +1,30 @@
+.SearchResultTable {
+    height: 100%;
+}
+
+.table, .table button {
+    color: rgb(235, 235, 235);
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+.table td button {
+    font-size: 1.1rem;
+}
+
+.table .btn-link:hover {
+    color: white;
+    transform: scale(1.2);
+}
+
+.table button:focus {
+    outline: 0px !important;
+    -webkit-appearance: none;
+    box-shadow: none !important;
+}
+
+table tr:hover {
+    background-color: #3b3b3b;
+}

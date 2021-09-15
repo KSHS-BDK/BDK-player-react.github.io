@@ -19,7 +19,7 @@
 
 .aplayer.aplayer-fixed {
   width: 100% !important;
-  max-width: 100%;
+  max-width: 100% !important;
   display: flex;
   justify-content: flex-end;
   z-index: 110;
@@ -27,8 +27,8 @@
 }
 
 .aplayer.aplayer-fixed .aplayer-body {
-  width: 100%;
-  max-width: 100%;
+  width: 100% !important;
+  max-width: 100% !important;
 }
 
 .aplayer-list {

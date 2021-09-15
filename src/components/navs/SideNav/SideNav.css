@@ -22,7 +22,7 @@
 
 .nav-link.active {
     background-color: #282828;
-    border-radius: .25rem;
+    border-radius: .15rem;
     color: white !important;
 }
 

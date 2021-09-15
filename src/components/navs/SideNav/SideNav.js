@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
+
+import Spotify from '../../../assets/spotify.svg';
 
 import './SideNav.css';
 
@@ -11,35 +13,35 @@ function SideNav(props) {
     <div className='SideNav container-fluid' >
       <div className="nav-header">
         <h2 className="fs-3 py-4 px-2">
-          <i className="bi bi-youtube"></i>
-          <span>{props.navTitle}</span>
+          <img src={Spotify} alt='logo' width={40} height={40} />
+          <span className='ps-2'>{props.navTitle}</span>
         </h2>
       </div>
       <div className="nav-nav pt-2">
         <ul className="nav flex-column">
           <li className="nav-item">
-            <Link className="nav-link text-secondary active" id="nav-home" to={ROUTES.HOME}>
+            <NavLink className="nav-link text-secondary" id="nav-home" to={ROUTES.HOME}>
               <i className="bi-house-door"></i>
               Home
-            </Link>
+            </NavLink>
           </li>
           <li className="nav-item">
-            <Link className="nav-link text-secondary" id="nav-search" to={ROUTES.SEARCH}>
+            <NavLink className="nav-link text-secondary" id="nav-search" to={ROUTES.SEARCH}>
               <i className="bi-search"></i>
               Search
-            </Link>
+            </NavLink>
           </li>
           <li className="nav-item">
-            <Link className="nav-link text-secondary" id="nav-library" to={ROUTES.LIBRARY}>
+            <NavLink className="nav-link text-secondary" id="nav-library" to={ROUTES.LIBRARY}>
               <i className="bi-archive"></i>
               Library
-            </Link>
+            </NavLink>
           </li>
           <li className="nav-item">
-            <Link className="nav-link text-secondary" id="nav-playlist" to={ROUTES.PLAYLIST}>
+            <NavLink className="nav-link text-secondary" id="nav-playlist" to={ROUTES.PLAYLIST}>
               <i className="bi bi-collection-play"></i>
               Playlist
-            </Link>
+            </NavLink>
           </li>
         </ul>
       </div>

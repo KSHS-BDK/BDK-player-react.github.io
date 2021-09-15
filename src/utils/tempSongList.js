@@ -1,4 +1,4 @@
-const tempSongList = [
+const tempSongList = (dev = false) => [
     // {
     //     "name": "NEXT COLOR PLANET",
     //     "artist":"Suisei",
