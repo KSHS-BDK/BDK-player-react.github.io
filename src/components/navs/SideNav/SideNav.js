@@ -12,12 +12,12 @@ function SideNav(props) {
   return (
     <div className='SideNav container-fluid' >
       <div className="nav-header">
-        <h2 className="fs-3 py-4 px-2">
+        <h2 className="fs-4 py-4 px-2">
           <img src={Spotify} alt='logo' width={40} height={40} />
           <span className='ps-2'>{props.navTitle}</span>
         </h2>
       </div>
-      <div className="nav-nav pt-2">
+      <div className="nav-nav">
         <ul className="nav flex-column">
           <li className="nav-item">
             <NavLink className="nav-link text-secondary" id="nav-home" to={ROUTES.HOME}>

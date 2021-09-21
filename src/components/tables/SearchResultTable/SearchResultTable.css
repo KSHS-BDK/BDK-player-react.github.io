@@ -16,7 +16,7 @@
 
 .table .btn-link:hover {
     color: white;
-    transform: scale(1.2);
+    transform: scale(1.3);
 }
 
 .table button:focus {

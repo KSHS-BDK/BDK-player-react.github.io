@@ -4,9 +4,8 @@ import ReactAplayer from 'react-aplayer';
 
 import Main from './Main';
 
-import { initAplayer, initMusicList } from '../store/actions/player';
-
-import musiclist from '../utils/data/musiclist.json';
+import { initAplayer } from '../store/actions/player';
+import { initMusicList } from '../store/actions/music';
 
 const APlayerOptions = {
   audio: [],
@@ -17,10 +16,12 @@ const APlayerOptions = {
 
 function AppContent(props) {
 
-  const { initMusicList } = props
+  const {
+    initMusicList,
+  } = props
 
   useEffect(() => {
-    initMusicList(musiclist);
+    initMusicList();
   }, [initMusicList]);
 
   const onInit = async ap => {

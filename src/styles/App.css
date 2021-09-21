@@ -41,3 +41,7 @@
 .aplayer-info {
   display: block !important;
 }
+
+.content-top-bar {
+  height: 75px;
+}

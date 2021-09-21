@@ -9,21 +9,22 @@ import '../styles/Search.css';
 
 function Search(props) {
 
-  const { musicList, aplayer } = props.player;
+  const { list } = props.music;
+  const { aplayer } = props.player;
 
   const [searchText, setSearchText] = useState('');
   const [resultTableData, setResultTableData] = useState([]);
 
   useEffect(() => {
-    setResultTableData([...musicList]);
-  }, [musicList]);
+    setResultTableData([...list]);
+  }, [list]);
 
   useEffect(() => {
     if (searchText.length === 0) {
-      setResultTableData([...musicList]);
+      setResultTableData([...list]);
       return;
     }
-    const result = musicList.filter(music => {
+    const result = list.filter(music => {
       return (
         _.includes(music.name.toLowerCase(), searchText.toLowerCase()) ||
         _.includes(music.artist.toLowerCase(), searchText.toLowerCase()) ||
@@ -32,7 +33,7 @@ function Search(props) {
       );
     });
     setResultTableData([...result]);
-  }, [searchText, musicList]);
+  }, [searchText, list]);
 
   const onCellPlayClick = useCallback((row) => {
     if (aplayer) {
@@ -118,7 +119,7 @@ function Search(props) {
 
   return (
     <div className='Search container-fluid' >
-      <div className='row' >
+      <div className='row content-top-bar'>
         <SearchInput onSearchInputChange={onSearchInputChange} />
       </div>
       <div className='result-table' >
@@ -133,6 +134,7 @@ function Search(props) {
 
 function mapStateToProps(reduxState) {
   return ({
+    music: reduxState.music,
     player: reduxState.player,
   });
 }
