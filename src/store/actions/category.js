@@ -1,6 +1,7 @@
 import _ from 'lodash';
 import {
     SET_CATEGORY,
+    SET_CATEGORY_MUSIC_LIST,
     // SET_CATEGORY_ARTISTS,
     // SET_CATEGORY_ALBUMS,
     // SET_CATEGORY_TAGS,
@@ -14,19 +15,60 @@ export function setCategory(category = '', value) {
     }
 }
 
+export function setCategoryMusicList(category = '', value) {
+    return {
+        type: SET_CATEGORY_MUSIC_LIST,
+        category,
+        payload: value,
+    }
+}
+
 export function initAllCategories(musicList) {
     return dispatch => {
-        const [artists, albums, tags] = musicList.reduce((acc, curr) => {
+        let [artists, albums, tags] = musicList.reduce((acc, curr) => {
             const { artist, album, tags } = curr;
-            acc[0].push(artist);
-            acc[1].push(album);
+            if (artist.length > 0) {
+                acc[0].push(artist);
+            }
+            if (album.length > 0) {
+                acc[1].push(album);
+            }
             tags.forEach(tag => {
-                acc[2].push(tag);
+                if (tag.length > 0) {
+                    acc[2].push(tag);
+                }
             });
             return acc;
         }, [[], [], []]);
-        dispatch(setCategory('artists', _.uniq(artists)));
-        dispatch(setCategory('albums', _.uniq(albums)));
-        dispatch(setCategory('tags', _.uniq(tags)));
+        artists = _.uniq(artists);
+        albums = _.uniq(albums);
+        tags = _.uniq(tags);
+        dispatch(setCategory('artists', artists));
+        dispatch(setCategory('albums', albums));
+        dispatch(setCategory('tags', tags));
+        const artistsMusicList = artists.map(artist => {
+            return {
+                title: artist,
+                label: 'artist',
+                list: musicList.filter(music => music.artist === artist),
+            }
+        });
+        const albumsMusicList = albums.map(album => {
+            return {
+                title: album,
+                label: 'album',
+                list: musicList.filter(music => music.album === album),
+            }
+        });
+        const tagsMusicList = tags.map(tag => {
+            return {
+                title: tag,
+                label: 'tags',
+                list: musicList.filter(music => music.tags.includes(tag)),
+            }
+        });
+        dispatch(setCategoryMusicList('artists', artistsMusicList));
+        dispatch(setCategoryMusicList('albums', albumsMusicList));
+        dispatch(setCategoryMusicList('tags', tagsMusicList));
     }
 }

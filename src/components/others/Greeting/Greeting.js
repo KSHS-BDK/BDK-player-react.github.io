@@ -11,7 +11,6 @@ function Greeting(props) {
 
   const generateGreeting = () => {
     const currentHour = moment().format("HH");
-    console.log(currentHour);
 
     if (currentHour >= greetingHourRange.morning.from && currentHour < greetingHourRange.morning.to) {
       return greetingText.morning;

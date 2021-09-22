@@ -1,7 +1,46 @@
 .result-table {
     height: 100%;
-    max-height: 90vh;
+    max-height: 80vh;
     overflow-y: auto;
     padding-bottom: 75px;
     top: 0;
+}
+
+.play-all-button {
+    background-color: #4a9bd0;
+    color: #FFF;
+    font-size: 1.6rem;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, .4);
+    transition: all .3s ease;
+}
+
+.play-all-button:hover {
+    transform: scale(1.1);
+    transition: all .3s ease;
+}
+
+.dropdown button:focus,
+.dropdown:focus {
+    outline: 0px !important;
+    -webkit-appearance: none;
+    box-shadow: none !important;
+}
+
+.dropdown .dropdown-toggle {
+    color: rgb(235, 235, 235);
+    font-size: 1.5rem;
+}
+
+.dropdown-menu .dropdown-item:focus {
+    background-color: #4a9bd0;
+}
+
+#dropdownMenuButtonSearchTableAction:after {
+    display: none;
 }

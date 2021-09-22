@@ -10,7 +10,6 @@ const player = (state = DEFAULT_STATE, action) => {
     const { type, payload } = action;
     switch(type) {
         case INIT_APLAYER: {
-            console.log(state);
             return {
                 ...state,
                 aplayer: payload.aplayer,

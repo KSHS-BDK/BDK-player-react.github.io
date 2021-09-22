@@ -81,7 +81,6 @@ function Search(props) {
         Header: 'Tags',
         accessor: 'tags',
         Cell: props => {
-          console.log(props);
           return <div>{props.row.original.tags.join(', ')}</div>
         }
       },
@@ -117,10 +116,45 @@ function Search(props) {
     setSearchText(e.target.value);
   }
 
+  function onPlayAllButtonClick(e) {
+    e.preventDefault();
+    aplayer.list.clear();
+    aplayer.list.add(resultTableData);
+    aplayer.play();
+  }
+
+  function onAddAllbuttonClick(e) {
+    e.preventDefault();
+    aplayer.list.add(resultTableData);
+    aplayer.list.show();
+  }
+
   return (
     <div className='Search container-fluid' >
       <div className='row content-top-bar'>
         <SearchInput onSearchInputChange={onSearchInputChange} />
+      </div>
+      <div className='row pt-2 pb-3 align-items-center' >
+        <div className='play-all-button ms-3' onClick={onPlayAllButtonClick}>
+          <i className="bi bi-play-fill"></i>
+        </div>
+        <div className="dropdown col">
+          <button className="btn btn-link dropdown-toggle" type="button" id="dropdownMenuButtonSearchTableAction" data-bs-toggle="dropdown" aria-expanded="false">
+            <i className="bi bi-three-dots"></i>
+          </button>
+          <ul className="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButtonSearchTableAction">
+            <li>
+              <button className="dropdown-item" onClick={onPlayAllButtonClick}>
+                Play all
+              </button>
+            </li>
+            <li>
+              <button className="dropdown-item" onClick={onAddAllbuttonClick}>
+                Add all to queue
+              </button>
+            </li>
+          </ul>
+        </div>
       </div>
       <div className='result-table' >
         <SearchResultTable 

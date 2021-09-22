@@ -1,14 +1,22 @@
 import {
     SET_CATEGORY,
+    SET_CATEGORY_MUSIC_LIST,
     SET_CATEGORY_ARTISTS,
     SET_CATEGORY_ALBUMS,
     SET_CATEGORY_TAGS,
 } from '../actionTypes';
 
 const DEFAULT_STATE = {
-    albums: [],
-    artists: [],
-    tags: [],
+    categories: {
+        albums: [],
+        artists: [],
+        tags: [],
+    },
+    categoryMusicList: {
+        albums: [],
+        artists: [],
+        tags: [],
+    }
 }
 
 const category = (state = DEFAULT_STATE, action) => {
@@ -18,25 +26,47 @@ const category = (state = DEFAULT_STATE, action) => {
             const { category } = action;
             return {
                 ...state,
-                [category]: [...payload]
+                categories: {
+                    ...state.categories,
+                    [category]: payload,
+                }
+            }
+        }
+        case SET_CATEGORY_MUSIC_LIST: {
+            const { category } = action;
+            return {
+                ...state,
+                categoryMusicList: {
+                    ...state.categoryMusicList,
+                    [category]: payload,
+                }
             }
         }
         case SET_CATEGORY_ARTISTS: {
             return {
                 ...state,
-                artists: [...payload.artists],
+                categories: {
+                    ...state.categories,
+                    artists: [...payload.artists],
+                }
             }
         }
         case SET_CATEGORY_ALBUMS: {
             return {
                 ...state,
-                albums: [...payload.albums],
+                categories: {
+                    ...state.categories,
+                    albums: [...payload.albums],
+                }
             }
         }
         case SET_CATEGORY_TAGS: {
             return {
                 ...state,
-                tags: [...payload.tags],
+                categories: {
+                    ...state.categories,
+                    tags: [...payload.tags],
+                }
             }
         }
         default: return state;
