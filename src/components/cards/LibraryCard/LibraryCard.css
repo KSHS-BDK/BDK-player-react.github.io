@@ -1,0 +1,48 @@
+.LibraryCard {
+    width: 100%;
+    padding-top: 133%;
+    position: relative;
+    background-color: #272727;
+}
+
+.LibraryCard:hover {
+    cursor: pointer;
+}
+
+.LibraryCard .card-image {
+    width: 80%;
+    padding-top: 80%;
+    position: absolute;
+    top: 6%;
+    right: 10%;
+    left: 10%;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.LibraryCard .PlayButton {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.LibraryCard .PlayButton:hover {
+    transform: scale(1.1);
+    transition: all .2s ease;
+}
+
+.LibraryCard .card-title {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+}
+
+.LibraryCard .card-title .card-title-main {
+    color: #DDDDDD;
+    font-weight: 600;
+}
+
+.LibraryCard .card-title .card-title-sub {
+    color: #a3a3a3;
+    font-size: 0.9rem;
+}

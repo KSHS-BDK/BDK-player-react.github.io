@@ -1,12 +1,13 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import _ from 'lodash';
+// import { connect } from 'react-redux';
 
 import PlayButton from '../../others/PlayButton/PlayButton';
 
-import './CategoryCard.css';
+import './LibraryCard.css';
 
-function CategoryCard(props) {
+function LibraryCard(props) {
 
   const { cardCategory } = props;
 
@@ -22,66 +23,69 @@ function CategoryCard(props) {
     }
   }, [cardCategory]);
 
-  const toggleHover = () => {
-    setIsCardHover(!isCardHover)
+  function toggleHover() {
+    setIsCardHover(!isCardHover);
   }
 
-  const onCardClick = (e) => {
+  function onPlayButtonClick(e) {
     e.preventDefault();
-    props.onCardClick({
-      ...props.cardCategory,
-    });
+    e.stopPropagation();
+    props.onCardPlayButtonClick(props.cardCategory);
   }
 
-  const onPlayButtonClick = (e) => {
+  function onLibraryCardClick(e) {
     e.preventDefault();
-    props.onCardPlayButtonClick(props.cardCategory.list);
+    props.onCardClick(props.cardCategory)
   }
 
   return (
     <div 
-      className='CategoryCard rounded-2'
+      className='LibraryCard rounded-3'
       onMouseEnter={toggleHover}
       onMouseLeave={toggleHover}
-      onClick={onCardClick}
+      onClick={onLibraryCardClick}
     >
       <div 
-        className='card-cover rounded-start' 
-        style={{backgroundImage: `url('${cardImagePath}')`, backgroundColor: props.coverBackgroundColor}} 
+        className='card-image rounded-1' 
+        style={{
+          backgroundColor: props.coverBackgroundColor,
+          backgroundImage: `url('${cardImagePath}')`,
+        }}
       >
-      </div>
-      <div className='card-space' >
-        <div className="card-name">{props.cardCategory.title}</div>
-        <PlayButton
+        <PlayButton 
           isDefaultHidden={true}
           show={isCardHover}
           onClick={onPlayButtonClick}
         />
       </div>
+      <div className='card-title'>
+        <div className='card-title-main'>{props.cardCategory.title}</div>
+        <div className='card-title-sub'>{_.capitalize(props.cardCategory.label)}</div>
+      </div>
     </div>
   );
 }
 
-CategoryCard.propTypes = {
+LibraryCard.propTypes = {
+  coverBackgroundColor: PropTypes.string,
   cardCategory: PropTypes.shape({
     title: PropTypes.string,
     label: PropTypes.string,
     list: PropTypes.array,
   }),
-  coverBackgroundColor: PropTypes.string,
   onCardClick: PropTypes.func,
   onCardPlayButtonClick: PropTypes.func,
 }
 
-CategoryCard.defaultProps = {
+LibraryCard.defaultProps = {
   cardCategory: {
     title: 'Default category',
-    label: '',
+    label: 'tags',
     list: [],
   },
-  coverBackgroundColor: '#dddddd',
+  coverBackgroundColor: '#FFF',
   onCardClick: (e) => {console.log(e)},
   onCardPlayButtonClick: (e) => {console.log(e)}
 }
 
-export default CategoryCard
+export default LibraryCard

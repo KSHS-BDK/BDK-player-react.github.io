@@ -1,0 +1,15 @@
+.PlayButton {
+    background-color: #4a9bd0;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, .4);
+    transition: all .3s ease;
+}
+
+.PlayButton:hover {
+    cursor: pointer;
+}

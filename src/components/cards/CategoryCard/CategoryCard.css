@@ -8,16 +8,17 @@
 .CategoryCard:hover {
     background-color: rgba(255, 255, 255, .2);
     transition: background-color .3s ease;
+    cursor: pointer;
 }
 
-.card-cover {
+.CategoryCard .card-cover {
     min-width: 80px;
     min-height: 80px;
     background-size: cover;
     background-position: 50%;
 }
 
-.card-space {
+.CategoryCard .card-space {
     flex: 1;
     width: 100%;
     display: flex;
@@ -25,30 +26,19 @@
     align-items: center;
 }
 
-.card-name {
+.CategoryCard .card-name {
     margin-left: .5rem;
     color: white;
     font-size: 1.1rem;
     font-weight: 600;
 }
 
-.play-button {
-    background-color: #4a9bd0;
-    color: white;
-    font-size: 1.3rem;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.CategoryCard .PlayButton {
     position: relative;
     margin-right: 1rem;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, .4);
-    transition: opacity .3s ease;
 }
 
-.play-button:hover {
+.CategoryCard .PlayButton:hover {
     transform: scale(1.1);
     transition: all .2s ease;
 }

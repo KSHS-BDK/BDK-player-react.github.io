@@ -1,0 +1,46 @@
+/* TempSearchOnly */
+.LibrarySearch .search-title {
+    font-size: 4.5rem;
+    font-weight: 600;
+    color: #FFF;
+    padding: .25rem 0;
+}
+
+.LibrarySearch {
+    height: 100%;
+    min-height: 80vh;
+    background-color: #181818;
+}
+
+.LibrarySearch .result-table {
+    height: 100%;
+    max-height: 60vh;
+    overflow-y: auto;
+    padding-bottom: 75px;
+    top: 0;
+}
+
+.LibrarySearch .play-all-button:hover {
+    transform: scale(1.1);
+    transition: all .3s ease;
+}
+
+.LibrarySearch .dropdown button:focus,
+.LibrarySearch .dropdown:focus {
+    outline: 0px !important;
+    -webkit-appearance: none;
+    box-shadow: none !important;
+}
+
+.LibrarySearch .dropdown .dropdown-toggle {
+    color: rgb(235, 235, 235);
+    font-size: 1.5rem;
+}
+
+.LibrarySearch .dropdown-menu .dropdown-item:focus {
+    background-color: #4a9bd0;
+}
+
+.LibrarySearch #dropdownMenuButtonSearchTableAction:after {
+    display: none;
+}

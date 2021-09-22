@@ -2,16 +2,16 @@ import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import { connect } from 'react-redux';
 import _ from 'lodash';
 
-import SearchInput from '../components/inputs/SearchInput/SearchInput';
 import SearchResultTable from '../components/tables/SearchResultTable/SearchResultTable';
 import PlayButton from '../components/others/PlayButton/PlayButton';
 
-import '../styles/Search.css';
+import '../styles/LibrarySearch.css';
 
-function Search(props) {
+function LibrarySearch(props) {
 
   const { list } = props.music;
   const { aplayer } = props.player;
+  const { searchTextFromProps } = props;
 
   const [searchText, setSearchText] = useState('');
   const [resultTableData, setResultTableData] = useState([]);
@@ -35,6 +35,12 @@ function Search(props) {
     });
     setResultTableData([...result]);
   }, [searchText, list]);
+
+  useEffect(() => {
+    if (searchTextFromProps) {
+      setSearchText(searchTextFromProps);
+    }
+  }, [searchTextFromProps]);
 
   const onCellPlayClick = useCallback((row) => {
     if (aplayer) {
@@ -112,11 +118,6 @@ function Search(props) {
     [onCellPlayClick, onCellAddClick]
   )
 
-  function onSearchInputChange(e) {
-    e.preventDefault();
-    setSearchText(e.target.value);
-  }
-
   function onPlayAllButtonClick(e) {
     e.preventDefault();
     aplayer.list.clear();
@@ -131,9 +132,9 @@ function Search(props) {
   }
 
   return (
-    <div className='Search container-fluid' >
-      <div className='row content-top-bar'>
-        <SearchInput onSearchInputChange={onSearchInputChange} />
+    <div className='LibrarySearch container-fluid' >
+      <div className='search-title'>
+        {props.searchTextFromProps}
       </div>
       <div className='row pt-2 pb-3 align-items-center' >
         <PlayButton
@@ -180,4 +181,4 @@ function mapStateToProps(reduxState) {
 
 export default connect(mapStateToProps, {
   
-})(Search);
+})(LibrarySearch);

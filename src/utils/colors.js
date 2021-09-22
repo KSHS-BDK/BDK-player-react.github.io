@@ -11,10 +11,23 @@ export const generalColors = [
     '#faf9f9',
     '#ffd6ba',
     '#cf995f',
+    '#b3ffcc',
+    '#006450',
 ];
 
 export function getRandomColors(count) {
     // const indicies = _.shuffle([...Array(generalColors).keys()]);
-    const returnCount = count || generalColors.length;
-    return _.shuffle(generalColors).slice(0, returnCount);
+    let returnCount = count || generalColors.length;
+    if (count <= generalColors.length) {
+        return _.shuffle(generalColors).slice(0, returnCount);
+    } else {
+        let colors = [];
+        while (returnCount > generalColors.length) {
+            colors = [...colors, ..._.shuffle(generalColors)];
+            returnCount -= generalColors.length;
+        }
+        colors = [...colors, ..._.shuffle(generalColors).slice(0, returnCount)];
+        return colors;
+    }
+    
 }

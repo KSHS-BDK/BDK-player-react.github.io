@@ -30,9 +30,7 @@ function AppContent(props) {
 
   return (
     <div className='AppContent' >
-      <div className='container-fluid' >
-        <Main />
-      </div>
+      <Main />
       <ReactAplayer 
         {...APlayerOptions}
         onInit={onInit}

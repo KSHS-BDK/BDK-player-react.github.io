@@ -1,0 +1,12 @@
+.Library{
+    height: 100%;
+    min-height: 100vh;
+    background-color: #181818;
+}
+
+@media (min-width: 1500px) {
+    .col-xxl-2 {
+        width: 16.66% !important;
+        float: left !important;
+    }
+  }

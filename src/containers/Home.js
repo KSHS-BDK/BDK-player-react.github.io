@@ -7,6 +7,8 @@ import CategoryCard from '../components/cards/CategoryCard/CategoryCard';
 
 import { getRandomColors } from '../utils/colors';
 
+import '../styles/Home.css';
+
 function Home(props) {
 
   const { categoryMusicList } = props;
@@ -43,7 +45,7 @@ function Home(props) {
   });
 
   return (
-    <div className='Home container-fluid' >
+    <div className='Home container-fluid px-4' >
       <div className='row content-top-bar'>
       </div>
 
