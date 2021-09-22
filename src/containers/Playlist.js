@@ -1,10 +1,12 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
+import '../styles/Playlist.css';
+
 function Playlist(props) {
   return (
     <div className='Playlist' >
-      Playlist
+      Coming soon.
     </div>
   );
 }

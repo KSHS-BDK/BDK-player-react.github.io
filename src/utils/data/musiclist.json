@@ -1,7 +1,7 @@
 [
     {
         "name": "NEXT COLOR PLANET",
-        "artist":"Suisei",
+        "artist":"星街すいせい",
         "url":"music/NEXT COLOR PLANET.mp3",
         "cover":"pic/NEXT COLOR PLANET.jpg",
         "album":"",
@@ -9,7 +9,7 @@
     },
     {
         "name": "GHOST",
-        "artist": "Suisei",
+        "artist": "星街すいせい",
         "url": "music/GHOST.mp3",
         "cover": "pic/GHOST.jpg",
         "album":"",
@@ -19,8 +19,8 @@
         "name":"ハルジオン",
         "artist":"YOASOBI",
         "url":"music/ハルジオン.mp3",
-        "cover":"",
-        "album":"",
+        "cover":"pic/the book.jpeg",
+        "album":"THE BOOK",
         "tags":[]
     },
     {
@@ -80,161 +80,49 @@
         "tags": ["hololive", "cover"]
     },
     {
-        "name": "NEXT COLOR PLANET",
-        "artist":"Suisei",
-        "url":"music/NEXT COLOR PLANET.mp3",
-        "cover":"pic/NEXT COLOR PLANET.jpg",
-        "album":"",
-        "tags": ["hololive", "original"]
+        "name": "少女レイ covered by Suisei",
+        "artist": "星街すいせい",
+        "url": "music/少女レイ covered by Suisei.mp3",
+        "cover": "pic/少女レイ.png",
+        "album": "",
+        "tags": ["hololive", "cover"]
     },
     {
-        "name": "GHOST",
-        "artist": "Suisei",
-        "url": "music/GHOST.mp3",
-        "cover": "pic/GHOST.jpg",
-        "album":"",
-        "tags": ["hololive", "original"]
-    },
-    {
-        "name":"ハルジオン",
-        "artist":"YOASOBI",
-        "url":"music/ハルジオン.mp3",
-        "cover":"",
-        "album":"",
-        "tags":[]
-    },
-    {
-        "name": "ラブレター",
-        "artist":"YOASOBI",
-        "url":"music/ラブレター.mp3",
-        "cover":"",
-        "album":"",
-        "tags":[]
-    },
-    {
-        "name": "怪物",
-        "artist":"YOASOBI",
-        "url":"music/怪物.mp3",
-        "cover":"",
-        "album":"",
-        "tags":[]
-    },
-    {
-        "name": "踊",
-        "artist": "Ado",
-        "url": "music/踊.mp3",
-        "cover": "",
-        "album":"",
+        "name": "夜に駆ける",
+        "artist": "YOASOBI",
+        "url": "music/夜に駆ける.mp3",
+        "cover": "pic/the book.jpeg",
+        "album":"THE BOOK",
         "tags": []
     },
     {
-        "name": "うっせぇわ",
-        "artist": "Ado",
-        "url": "music/うっせぇわ.mp3",
-        "cover": "",
-        "album":"",
+        "name": "群青",
+        "artist": "YOASOBI",
+        "url": "music/群青.mp3",
+        "cover": "pic/the book.jpeg",
+        "album":"THE BOOK",
         "tags": []
     },
     {
-        "name": "ギラギラ",
-        "artist": "Ado",
-        "url": "music/ギラギラ.mp3",
+        "name": "踊 covered by Shion",
+        "artist": "紫咲シオン",
+        "url": "music/踊 covered by Shion.mp3",
         "cover": "",
         "album":"",
-        "tags": []
+        "tags": ["hololive", "cover"]
     },
     {
-        "name": "グッバイ宣言 Aqua cover",
+        "name": "ヴァンパイア coverd by Aqua",
         "artist": "湊あくあ",
-        "url": "music/グッバイ宣言-aqua.mp3",
+        "url": "music/ヴァンパイア coverd by Aqua.mp3",
         "cover": "",
         "album":"",
         "tags": ["hololive", "cover"]
     },
     {
-        "name": "ディスコミュ星人 Pekora cover",
-        "artist": "兎田ぺこら",
-        "url": "music/ディスコミュ星人-pekora.mp3",
-        "cover": "",
-        "album":"",
-        "tags": ["hololive", "cover"]
-    },
-    {
-        "name": "NEXT COLOR PLANET",
-        "artist":"Suisei",
-        "url":"music/NEXT COLOR PLANET.mp3",
-        "cover":"pic/NEXT COLOR PLANET.jpg",
-        "album":"",
-        "tags": ["hololive", "original"]
-    },
-    {
-        "name": "GHOST",
-        "artist": "Suisei",
-        "url": "music/GHOST.mp3",
-        "cover": "pic/GHOST.jpg",
-        "album":"",
-        "tags": ["hololive", "original"]
-    },
-    {
-        "name":"ハルジオン",
-        "artist":"YOASOBI",
-        "url":"music/ハルジオン.mp3",
-        "cover":"",
-        "album":"",
-        "tags":[]
-    },
-    {
-        "name": "ラブレター",
-        "artist":"YOASOBI",
-        "url":"music/ラブレター.mp3",
-        "cover":"",
-        "album":"",
-        "tags":[]
-    },
-    {
-        "name": "怪物",
-        "artist":"YOASOBI",
-        "url":"music/怪物.mp3",
-        "cover":"",
-        "album":"",
-        "tags":[]
-    },
-    {
-        "name": "踊",
-        "artist": "Ado",
-        "url": "music/踊.mp3",
-        "cover": "",
-        "album":"",
-        "tags": []
-    },
-    {
-        "name": "うっせぇわ",
-        "artist": "Ado",
-        "url": "music/うっせぇわ.mp3",
-        "cover": "",
-        "album":"",
-        "tags": []
-    },
-    {
-        "name": "ギラギラ",
-        "artist": "Ado",
-        "url": "music/ギラギラ.mp3",
-        "cover": "",
-        "album":"",
-        "tags": []
-    },
-    {
-        "name": "グッバイ宣言 Aqua cover",
+        "name": "ダダダダ天使 covered by aqua",
         "artist": "湊あくあ",
-        "url": "music/グッバイ宣言-aqua.mp3",
-        "cover": "",
-        "album":"",
-        "tags": ["hololive", "cover"]
-    },
-    {
-        "name": "ディスコミュ星人 Pekora cover",
-        "artist": "兎田ぺこら",
-        "url": "music/ディスコミュ星人-pekora.mp3",
+        "url": "music/ダダダダ天使 covered by aqua.mp3",
         "cover": "",
         "album":"",
         "tags": ["hololive", "cover"]

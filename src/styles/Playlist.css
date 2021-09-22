@@ -1,0 +1,9 @@
+.Playlist {
+    height: 100%;
+    min-height: 100vh;
+    background-color: #181818;
+    color: #FFF;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 3rem;
+}
