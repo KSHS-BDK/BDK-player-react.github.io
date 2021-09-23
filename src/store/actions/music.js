@@ -2,7 +2,7 @@ import { SET_MUSIC_LIST } from '../actionTypes';
 
 import { initAllCategories } from './category';
 
-import musiclist from '../../utils/data/musiclist.json';
+import musiclist from '../../data/musiclist.json';
 
 export const setMusicList = () => {
     return {
