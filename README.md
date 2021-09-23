@@ -98,7 +98,7 @@ git checkout update-music
 	- Format in ``musiclist.json``
 	```
 	{
-		"name": "THE NAME TO DISPLAY",
+        "name": "THE NAME TO DISPLAY",
         "artist": "ARTIST NAME",
         "url": "URL TO MUSIC FILE, BASE AT public/",
         "cover": "URL TO COVER PICTURE FILE, BASE AT public/",
@@ -116,7 +116,7 @@ git checkout update-music
 	**Example 1**
 	```
 	{
-		"name": "夜に駆ける",
+        "name": "夜に駆ける",
         "artist": "YOASOBI",
         "url": "music/夜に駆ける.mp3",
         "cover": "pic/the book.jpeg",
@@ -127,7 +127,7 @@ git checkout update-music
 	**Example 2**
 	```
 	{
-		"name": "ダダダダ天使 covered by aqua",
+        "name": "ダダダダ天使 covered by aqua",
         "artist": "湊あくあ",
         "url": "music/ダダダダ天使 covered by aqua.mp3",
         "cover": "",
