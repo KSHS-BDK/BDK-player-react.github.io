@@ -84,7 +84,7 @@ This is an example of how to list things you need to use the software and how to
 **For any updates of music related, we recommend to make changes on ``update-music`` branch.**
 >Only admin users can update music to this github page
 
-**Sample usage viceo**
+**Sample usage video**
 [Video](https://youtu.be/qEgvOWpKsHI)
 
 ### Checkout ``update-music`` branch
