@@ -146,7 +146,8 @@ git checkout update-music
 	// on update-music branch
 	git add .
 	git commit -m "commit message like 'Update music library...'"
-	git pull
+  git fetch
+  git rebase
 	git push
 	```
 - Deploy to github page
