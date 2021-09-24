@@ -134,5 +134,13 @@
         "cover": "pic/iro wa nioedo chirinuru wo.jpeg",
         "album":"色は匂へど散りぬるを",
         "tags": ["touhou", "arrange", "東方"]
+    },
+    {
+        "name": "Ahoy!! 我ら宝鐘海賊団☆",
+        "artist": "宝鐘マリン",
+        "url": "music/Ahoy!! 我ら宝鐘海賊団☆.mp3",
+        "cover": "pic/ahoy-cover.jpeg",
+        "album":"Ahoy!! 我ら宝鐘海賊団☆",
+        "tags": ["hololive", "original"]
     }
 ]
