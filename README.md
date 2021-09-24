@@ -146,12 +146,12 @@ git checkout update-music
 	and go to ``localhost:3000`` on browser to see if the new list works fine.
 - Update repo
 	```sh
-	// on update-music branch
-	git add .
-	git commit -m "commit message like 'Update music library...'"
-	git fetch
+  // on update-music branch
+  git add .
+  git commit -m "commit message like 'Update music library...'"
+  git fetch
   git rebase
-	git push
+  git push
 	```
 - Deploy to github page
 	```sh
