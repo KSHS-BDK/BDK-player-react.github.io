@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/bdk-player-react.github.io/static/css/main.5cd28cd0.chunk.css",
-    "main.js": "/bdk-player-react.github.io/static/js/main.a58ab41e.chunk.js",
-    "main.js.map": "/bdk-player-react.github.io/static/js/main.a58ab41e.chunk.js.map",
+    "main.js": "/bdk-player-react.github.io/static/js/main.f981e80b.chunk.js",
+    "main.js.map": "/bdk-player-react.github.io/static/js/main.f981e80b.chunk.js.map",
     "runtime-main.js": "/bdk-player-react.github.io/static/js/runtime-main.caf0a4f3.js",
     "runtime-main.js.map": "/bdk-player-react.github.io/static/js/runtime-main.caf0a4f3.js.map",
     "static/css/2.4d8279c5.chunk.css": "/bdk-player-react.github.io/static/css/2.4d8279c5.chunk.css",
@@ -22,6 +22,6 @@
     "static/css/2.4d8279c5.chunk.css",
     "static/js/2.5142881b.chunk.js",
     "static/css/main.5cd28cd0.chunk.css",
-    "static/js/main.a58ab41e.chunk.js"
+    "static/js/main.f981e80b.chunk.js"
   ]
 }
