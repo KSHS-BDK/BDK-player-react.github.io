@@ -142,5 +142,149 @@
         "cover": "pic/ahoy-cover.jpeg",
         "album":"Ahoy!! 我ら宝鐘海賊団☆",
         "tags": ["hololive", "original"]
+    },
+    {
+        "name": "01 赤より紅い夢",
+        "artist": "marasy8",
+        "url": "music/01 赤より紅い夢.m4a",
+        "cover": "pic/幻想遊戯.jpg",
+        "album":"幻想遊戯 <紅> EX",
+        "tags": ["touhou", "piano"]
+    },
+    {
+        "name": "02 ほおずきみたいに紅い魂",
+        "artist": "marasy8",
+        "url": "music/02 ほおずきみたいに紅い魂.m4a",
+        "cover": "pic/幻想遊戯.jpg",
+        "album":"幻想遊戯 <紅> EX",
+        "tags": ["touhou", "piano"]
+    },
+    {
+        "name": "03 妖魔夜行",
+        "artist": "marasy8",
+        "url": "music/03 妖魔夜行.m4a",
+        "cover": "pic/幻想遊戯.jpg",
+        "album":"幻想遊戯 <紅> EX",
+        "tags": ["touhou", "piano"]
+    },
+    {
+        "name": "04 ルーネイトエルフ",
+        "artist": "marasy8",
+        "url": "music/04 ルーネイトエルフ.m4a",
+        "cover": "pic/幻想遊戯.jpg",
+        "album":"幻想遊戯 <紅> EX",
+        "tags": ["touhou", "piano"]
+    },
+    {
+        "name": "05 おてんば恋娘",
+        "artist": "marasy8",
+        "url": "music/05 おてんば恋娘.m4a",
+        "cover": "pic/幻想遊戯.jpg",
+        "album":"幻想遊戯 <紅> EX",
+        "tags": ["touhou", "piano"]
+    },
+    {
+        "name": "06 上海紅茶館 ～ Chinese Tea",
+        "artist": "marasy8",
+        "url": "music/06 上海紅茶館 ～ Chinese Tea.m4a",
+        "cover": "pic/幻想遊戯.jpg",
+        "album":"幻想遊戯 <紅> EX",
+        "tags": ["touhou", "piano"]
+    },
+    {
+        "name": "07 明治十七年の上海アリス",
+        "artist": "marasy8",
+        "url": "music/07 明治十七年の上海アリス.m4a",
+        "cover": "pic/幻想遊戯.jpg",
+        "album":"幻想遊戯 <紅> EX",
+        "tags": ["touhou", "piano"]
+    },
+    {
+        "name": "08 ヴワル魔法図書館",
+        "artist": "marasy8",
+        "url": "music/08 ヴワル魔法図書館.m4a",
+        "cover": "pic/幻想遊戯.jpg",
+        "album":"幻想遊戯 <紅> EX",
+        "tags": ["touhou", "piano"]
+    },
+    {
+        "name": "09 ラクトガール ～ 少女密室",
+        "artist": "marasy8",
+        "url": "music/09 ラクトガール ～ 少女密室.m4a",
+        "cover": "pic/幻想遊戯.jpg",
+        "album":"幻想遊戯 <紅> EX",
+        "tags": ["touhou", "piano"]
+    },
+    {
+        "name": "10 メイドと血の懐中時計",
+        "artist": "marasy8",
+        "url": "music/10 メイドと血の懐中時計.m4a",
+        "cover": "pic/幻想遊戯.jpg",
+        "album":"幻想遊戯 <紅> EX",
+        "tags": ["touhou", "piano"]
+    },
+    {
+        "name": "11 月時計 ～ ルナ・ダイアル",
+        "artist": "marasy8",
+        "url": "music/11 月時計 ～ ルナ・ダイアル.m4a",
+        "cover": "pic/幻想遊戯.jpg",
+        "album":"幻想遊戯 <紅> EX",
+        "tags": ["touhou", "piano"]
+    },
+    {
+        "name": "12 ツェペシュの幼き末裔",
+        "artist": "marasy8",
+        "url": "music/12 ツェペシュの幼き末裔.m4a",
+        "cover": "pic/幻想遊戯.jpg",
+        "album":"幻想遊戯 <紅> EX",
+        "tags": ["touhou", "piano"]
+    },
+    {
+        "name": "13 亡き王女の為のセプテット",
+        "artist": "marasy8",
+        "url": "music/13 亡き王女の為のセプテット.m4a",
+        "cover": "pic/幻想遊戯.jpg",
+        "album":"幻想遊戯 <紅> EX",
+        "tags": ["touhou", "piano"]
+    },
+    {
+        "name": "14 魔法少女達の百年祭",
+        "artist": "marasy8",
+        "url": "music/14 魔法少女達の百年祭.m4a",
+        "cover": "pic/幻想遊戯.jpg",
+        "album":"幻想遊戯 <紅> EX",
+        "tags": ["touhou", "piano"]
+    },
+    {
+        "name": "15 U.N.オーエンは彼女なのか_",
+        "artist": "marasy8",
+        "url": "music/15 U.N.オーエンは彼女なのか_.m4a",
+        "cover": "pic/幻想遊戯.jpg",
+        "album":"幻想遊戯 <紅> EX",
+        "tags": ["touhou", "piano"]
+    },
+    {
+        "name": "16 紅より儚い永遠",
+        "artist": "marasy8",
+        "url": "music/16 紅より儚い永遠.m4a",
+        "cover": "pic/幻想遊戯.jpg",
+        "album":"幻想遊戯 <紅> EX",
+        "tags": ["touhou", "piano"]
+    },
+    {
+        "name": "17 紅楼 ～ Eastern Dream...",
+        "artist": "marasy8",
+        "url": "music/17 紅楼 ～ Eastern Dream....m4a",
+        "cover": "pic/幻想遊戯.jpg",
+        "album":"幻想遊戯 <紅> EX",
+        "tags": ["touhou", "piano"]
+    },
+    {
+        "name": "18 紅魔郷スペシャルメドレー",
+        "artist": "marasy8",
+        "url": "music/18 紅魔郷スペシャルメドレー.m4a",
+        "cover": "pic/幻想遊戯.jpg",
+        "album":"幻想遊戯 <紅> EX",
+        "tags": ["touhou", "piano"]
     }
 ]
