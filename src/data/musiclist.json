@@ -144,7 +144,7 @@
         "tags": ["hololive", "original"]
     },
     {
-        "name": "01 赤より紅い夢",
+        "name": "赤より紅い夢",
         "artist": "marasy8",
         "url": "music/01 赤より紅い夢.m4a",
         "cover": "pic/幻想遊戯.jpg",
@@ -152,7 +152,7 @@
         "tags": ["touhou", "piano"]
     },
     {
-        "name": "02 ほおずきみたいに紅い魂",
+        "name": "ほおずきみたいに紅い魂",
         "artist": "marasy8",
         "url": "music/02 ほおずきみたいに紅い魂.m4a",
         "cover": "pic/幻想遊戯.jpg",
@@ -160,7 +160,7 @@
         "tags": ["touhou", "piano"]
     },
     {
-        "name": "03 妖魔夜行",
+        "name": "妖魔夜行",
         "artist": "marasy8",
         "url": "music/03 妖魔夜行.m4a",
         "cover": "pic/幻想遊戯.jpg",
@@ -168,7 +168,7 @@
         "tags": ["touhou", "piano"]
     },
     {
-        "name": "04 ルーネイトエルフ",
+        "name": "ルーネイトエルフ",
         "artist": "marasy8",
         "url": "music/04 ルーネイトエルフ.m4a",
         "cover": "pic/幻想遊戯.jpg",
@@ -176,7 +176,7 @@
         "tags": ["touhou", "piano"]
     },
     {
-        "name": "05 おてんば恋娘",
+        "name": "おてんば恋娘",
         "artist": "marasy8",
         "url": "music/05 おてんば恋娘.m4a",
         "cover": "pic/幻想遊戯.jpg",
@@ -184,7 +184,7 @@
         "tags": ["touhou", "piano"]
     },
     {
-        "name": "06 上海紅茶館 ～ Chinese Tea",
+        "name": "上海紅茶館 ～ Chinese Tea",
         "artist": "marasy8",
         "url": "music/06 上海紅茶館 ～ Chinese Tea.m4a",
         "cover": "pic/幻想遊戯.jpg",
@@ -192,7 +192,7 @@
         "tags": ["touhou", "piano"]
     },
     {
-        "name": "07 明治十七年の上海アリス",
+        "name": "明治十七年の上海アリス",
         "artist": "marasy8",
         "url": "music/07 明治十七年の上海アリス.m4a",
         "cover": "pic/幻想遊戯.jpg",
@@ -200,7 +200,7 @@
         "tags": ["touhou", "piano"]
     },
     {
-        "name": "08 ヴワル魔法図書館",
+        "name": "ヴワル魔法図書館",
         "artist": "marasy8",
         "url": "music/08 ヴワル魔法図書館.m4a",
         "cover": "pic/幻想遊戯.jpg",
@@ -208,7 +208,7 @@
         "tags": ["touhou", "piano"]
     },
     {
-        "name": "09 ラクトガール ～ 少女密室",
+        "name": "ラクトガール ～ 少女密室",
         "artist": "marasy8",
         "url": "music/09 ラクトガール ～ 少女密室.m4a",
         "cover": "pic/幻想遊戯.jpg",
@@ -216,7 +216,7 @@
         "tags": ["touhou", "piano"]
     },
     {
-        "name": "10 メイドと血の懐中時計",
+        "name": "メイドと血の懐中時計",
         "artist": "marasy8",
         "url": "music/10 メイドと血の懐中時計.m4a",
         "cover": "pic/幻想遊戯.jpg",
@@ -224,7 +224,7 @@
         "tags": ["touhou", "piano"]
     },
     {
-        "name": "11 月時計 ～ ルナ・ダイアル",
+        "name": "月時計 ～ ルナ・ダイアル",
         "artist": "marasy8",
         "url": "music/11 月時計 ～ ルナ・ダイアル.m4a",
         "cover": "pic/幻想遊戯.jpg",
@@ -232,7 +232,7 @@
         "tags": ["touhou", "piano"]
     },
     {
-        "name": "12 ツェペシュの幼き末裔",
+        "name": "ツェペシュの幼き末裔",
         "artist": "marasy8",
         "url": "music/12 ツェペシュの幼き末裔.m4a",
         "cover": "pic/幻想遊戯.jpg",
@@ -240,7 +240,7 @@
         "tags": ["touhou", "piano"]
     },
     {
-        "name": "13 亡き王女の為のセプテット",
+        "name": "亡き王女の為のセプテット",
         "artist": "marasy8",
         "url": "music/13 亡き王女の為のセプテット.m4a",
         "cover": "pic/幻想遊戯.jpg",
@@ -248,7 +248,7 @@
         "tags": ["touhou", "piano"]
     },
     {
-        "name": "14 魔法少女達の百年祭",
+        "name": "魔法少女達の百年祭",
         "artist": "marasy8",
         "url": "music/14 魔法少女達の百年祭.m4a",
         "cover": "pic/幻想遊戯.jpg",
@@ -256,7 +256,7 @@
         "tags": ["touhou", "piano"]
     },
     {
-        "name": "15 U.N.オーエンは彼女なのか_",
+        "name": "U.N.オーエンは彼女なのか？",
         "artist": "marasy8",
         "url": "music/15 U.N.オーエンは彼女なのか_.m4a",
         "cover": "pic/幻想遊戯.jpg",
@@ -264,7 +264,7 @@
         "tags": ["touhou", "piano"]
     },
     {
-        "name": "16 紅より儚い永遠",
+        "name": "紅より儚い永遠",
         "artist": "marasy8",
         "url": "music/16 紅より儚い永遠.m4a",
         "cover": "pic/幻想遊戯.jpg",
@@ -272,7 +272,7 @@
         "tags": ["touhou", "piano"]
     },
     {
-        "name": "17 紅楼 ～ Eastern Dream...",
+        "name": "紅楼 ～ Eastern Dream...",
         "artist": "marasy8",
         "url": "music/17 紅楼 ～ Eastern Dream....m4a",
         "cover": "pic/幻想遊戯.jpg",
@@ -280,11 +280,115 @@
         "tags": ["touhou", "piano"]
     },
     {
-        "name": "18 紅魔郷スペシャルメドレー",
+        "name": "紅魔郷スペシャルメドレー",
         "artist": "marasy8",
         "url": "music/18 紅魔郷スペシャルメドレー.m4a",
         "cover": "pic/幻想遊戯.jpg",
         "album":"幻想遊戯 <紅> EX",
+        "tags": ["touhou", "piano"]
+    },
+    {
+        "name": "01 少女さとり　～3rd　eye",
+        "artist": "marasy8",
+        "url": "music/01 少女さとり　～3rd　eye.m4a",
+        "cover": "pic/幻想遊戯　激2.png",
+        "album":"幻想遊戯　激2～Museum of marasy～",
+        "tags": ["touhou", "piano"]
+    },
+    {
+        "name": "02 メイガスナイト",
+        "artist": "marasy8",
+        "url": "music/02 メイガスナイト.m4a",
+        "cover": "pic/幻想遊戯　激2.png",
+        "album":"幻想遊戯　激2～Museum of marasy～",
+        "tags": ["touhou", "piano"]
+    },
+    {
+        "name": "03 遠野幻想物語",
+        "artist": "marasy8",
+        "url": "music/03 遠野幻想物語.m4a",
+        "cover": "pic/幻想遊戯　激2.png",
+        "album":"幻想遊戯　激2～Museum of marasy～",
+        "tags": ["touhou", "piano"]
+    },
+    {
+        "name": "04 魔法の笠地蔵",
+        "artist": "marasy8",
+        "url": "music/04 魔法の笠地蔵.m4a",
+        "cover": "pic/幻想遊戯　激2.png",
+        "album":"幻想遊戯　激2～Museum of marasy～",
+        "tags": ["touhou", "piano"]
+    },
+    {
+        "name": "05 エクステンドアッシュ　～蓬莱人",
+        "artist": "marasy8",
+        "url": "music/05 エクステンドアッシュ　～蓬莱人.m4a",
+        "cover": "pic/幻想遊戯　激2.png",
+        "album":"幻想遊戯　激2～Museum of marasy～",
+        "tags": ["touhou", "piano"]
+    },
+    {
+        "name": "06 リバースイデオロギー",
+        "artist": "marasy8",
+        "url": "music/06 リバースイデオロギー.m4a",
+        "cover": "pic/幻想遊戯　激2.png",
+        "album":"幻想遊戯　激2～Museum of marasy～",
+        "tags": ["touhou", "piano"]
+    },
+    {
+        "name": "07 いざ、倒れ逝くその時まで",
+        "artist": "marasy8",
+        "url": "music/07 いざ、倒れ逝くその時まで.m4a",
+        "cover": "pic/幻想遊戯　激2.png",
+        "album":"幻想遊戯　激2～Museum of marasy～",
+        "tags": ["touhou", "piano"]
+    },
+    {
+        "name": "08 六十年目の東方裁判　～Fate of Sixty Years",
+        "artist": "marasy8",
+        "url": "music/08 六十年目の東方裁判　～Fate of Sixty Years.m4a",
+        "cover": "pic/幻想遊戯　激2.png",
+        "album":"幻想遊戯　激2～Museum of marasy～",
+        "tags": ["touhou", "piano"]
+    },
+    {
+        "name": "09 古きユアンシェン",
+        "artist": "marasy8",
+        "url": "music/09 古きユアンシェン.m4a",
+        "cover": "pic/幻想遊戯　激2.png",
+        "album":"幻想遊戯　激2～Museum of marasy～",
+        "tags": ["touhou", "piano"]
+    },
+    {
+        "name": "10 霊知の太陽信仰　～Nuclear Fusion",
+        "artist": "marasy8",
+        "url": "music/10 霊知の太陽信仰　～Nuclear Fusion.m4a",
+        "cover": "pic/幻想遊戯　激2.png",
+        "album":"幻想遊戯　激2～Museum of marasy～",
+        "tags": ["touhou", "piano"]
+    },
+    {
+        "name": "11 見た事も無い悪夢の世界",
+        "artist": "marasy8",
+        "url": "music/11 見た事も無い悪夢の世界.m4a",
+        "cover": "pic/幻想遊戯　激2.png",
+        "album":"幻想遊戯　激2～Museum of marasy～",
+        "tags": ["touhou", "piano"]
+    },
+    {
+        "name": "12 ネクロファンタジア",
+        "artist": "marasy8",
+        "url": "music/12 ネクロファンタジア.m4a",
+        "cover": "pic/幻想遊戯　激2.png",
+        "album":"幻想遊戯　激2～Museum of marasy～",
+        "tags": ["touhou", "piano"]
+    },
+    {
+        "name": "13 上海紅魔館　～Chinese Tea",
+        "artist": "marasy8",
+        "url": "music/13 上海紅魔館　～Chinese Tea.m4a",
+        "cover": "pic/幻想遊戯　激2.png",
+        "album":"幻想遊戯　激2～Museum of marasy～",
         "tags": ["touhou", "piano"]
     }
 ]
